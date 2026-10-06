@@ -4,7 +4,7 @@ Win10-AlperEditionMaker is a tool for creating customized Windows 10 installatio
 
 It automates common ISO customization tasks and can optionally apply compatibility tweaks intended for older hardware.
 
-> **Note:** The Windows 10 version is currently more experimental and may contain more bugs than Win11-AlperEditionMaker. Always test the generated ISO in a virtual machine or on non-critical hardware before using it on your main PC.
+> **Note:** Win10-AlperEditionMaker may have a few more compatibility quirks than Win11-AlperEditionMaker depending on the Windows 10 build and hardware configuration being used.
 
 ## Features
 
@@ -44,12 +44,12 @@ These tweaks do **not** bypass Windows activation or licensing.
 
 Compatibility modifications are not guaranteed to work with every Windows 10 build or hardware configuration.
 
-## Known Limitations
+## Notes
 
-- The Windows 10 version may be less stable than the Windows 11 version.
-- Some customization steps may fail on certain Windows 10 builds.
-- Compatibility tweaks may behave differently depending on the ISO version.
-- Testing in a virtual machine is recommended before installing on real hardware.
+- Behavior may vary between different Windows 10 builds.
+- Some customization options may work differently depending on the source ISO.
+- Testing the generated ISO in a virtual machine before installing it on important hardware is recommended.
+- Always keep a backup of your original Windows 10 ISO.
 
 ## Important
 
