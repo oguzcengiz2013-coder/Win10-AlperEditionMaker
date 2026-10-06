@@ -8,9 +8,7 @@ It automates common ISO customization tasks and can optionally apply compatibili
 
 ## Download
 
-Release packages are distributed with names such as:
-
-`Win10-AlperEdition-v1.zip`
+Download the latest release ZIP from the Releases section.
 
 Extract the ZIP before running the Maker.
 
@@ -35,7 +33,7 @@ Extract the ZIP before running the Maker.
 
 ## Usage
 
-1. Download the latest `Win10-AlperEdition-v*.zip` release.
+1. Download the latest release ZIP.
 2. Extract the ZIP to a folder.
 3. Obtain a legitimate Windows 10 ISO.
 4. Run Win10-AlperEditionMaker as Administrator.
