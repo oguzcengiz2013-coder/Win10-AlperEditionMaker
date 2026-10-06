@@ -22,8 +22,8 @@ Extract the ZIP before running the Maker.
 - Add SetupComplete and first-logon scripts
 - Apply registry tweaks
 - Add themes, wallpapers, icons, and other customizations
-- Optional compatibility tweaks for older hardware
 - Support for manually provided drivers
+- Optional compatibility tweaks for older hardware
 - Rebuild the modified installation media into a new ISO
 
 ## Requirements
@@ -53,18 +53,19 @@ If you do not need custom drivers, you can leave the driver folder unchanged.
 
 ## Older Hardware Compatibility
 
-Win10-AlperEditionMaker may include optional Setup compatibility modifications intended for older hardware.
+Win10-AlperEditionMaker may include optional Windows Setup compatibility modifications intended for older hardware.
 
-These modifications may include changes related to Windows Setup compatibility checks, including `appraiserres.dll`.
+These modifications may include changes related to Setup compatibility checks, including handling of `appraiserres.dll`.
 
 These tweaks do **not** bypass Windows activation or licensing.
 
-Compatibility modifications are not guaranteed to work with every Windows 10 build or hardware configuration.
+Compatibility modifications are not guaranteed to behave identically with every Windows 10 build or hardware configuration.
 
 ## Notes
 
 - Behavior may vary between different Windows 10 builds.
 - Some customization options may behave differently depending on the source ISO.
+- Win10-AlperEditionMaker may have a few more compatibility quirks than the Windows 11 version.
 - Testing the generated ISO in a virtual machine before installing it on important hardware is recommended.
 - Always keep a backup of your original Windows 10 ISO.
 
