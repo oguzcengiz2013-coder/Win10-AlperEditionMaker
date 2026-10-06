@@ -6,16 +6,24 @@ It automates common ISO customization tasks and can optionally apply compatibili
 
 > **Note:** Win10-AlperEditionMaker may have a few more compatibility quirks than Win11-AlperEditionMaker depending on the Windows 10 build and hardware configuration being used.
 
+## Download
+
+Release packages are distributed with names such as:
+
+`Win10-AlperEdition-v1.zip`
+
+Extract the ZIP before running the Maker.
+
 ## Features
 
 - Modify a Windows 10 ISO automatically
 - Add custom files and folders
 - Add `$OEM$` content
-- Add setup scripts such as `SetupComplete.cmd` and first-logon scripts
-- Integrate drivers
+- Add SetupComplete and first-logon scripts
 - Apply registry tweaks
 - Add themes, wallpapers, icons, and other customizations
 - Optional compatibility tweaks for older hardware
+- Support for manually provided drivers
 - Rebuild the modified installation media into a new ISO
 
 ## Requirements
@@ -27,12 +35,21 @@ It automates common ISO customization tasks and can optionally apply compatibili
 
 ## Usage
 
-1. Download or clone this repository.
-2. Obtain a legitimate Windows 10 ISO.
-3. Run Win10-AlperEditionMaker as Administrator.
-4. Select or provide your Windows 10 ISO.
-5. Configure the desired modifications.
-6. Build the customized ISO.
+1. Download the latest `Win10-AlperEdition-v*.zip` release.
+2. Extract the ZIP to a folder.
+3. Obtain a legitimate Windows 10 ISO.
+4. Run Win10-AlperEditionMaker as Administrator.
+5. Select or provide your Windows 10 ISO.
+6. Configure the desired modifications.
+7. Build the customized ISO.
+
+## Driver Support
+
+Drivers are **not bundled** with Win10-AlperEditionMaker.
+
+If you want to include additional drivers, manually place the required driver files in the appropriate driver folder before building the ISO.
+
+If you do not need custom drivers, you can leave the driver folder unchanged.
 
 ## Older Hardware Compatibility
 
@@ -47,15 +64,15 @@ Compatibility modifications are not guaranteed to work with every Windows 10 bui
 ## Notes
 
 - Behavior may vary between different Windows 10 builds.
-- Some customization options may work differently depending on the source ISO.
+- Some customization options may behave differently depending on the source ISO.
 - Testing the generated ISO in a virtual machine before installing it on important hardware is recommended.
 - Always keep a backup of your original Windows 10 ISO.
 
 ## Important
 
-This repository does **not** include or distribute Microsoft Windows or Windows installation media.
+This repository and its release ZIP files do **not** include or distribute Microsoft Windows or Windows installation media.
 
-It does not include:
+They do not include:
 
 - Windows ISO files
 - `install.wim`
