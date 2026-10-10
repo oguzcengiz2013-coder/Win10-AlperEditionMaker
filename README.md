@@ -10,7 +10,7 @@ It automates common ISO customization tasks and can optionally apply compatibili
 
 ## Download
 
-Download the latest release ZIP from the **[Releases](https://github.com/oguzcengiz2013-coder/Win10-AlperEditionMaker/releases) section.
+Download the latest release ZIP from the [Releases](https://github.com/oguzcengiz2013-coder/Win10-AlperEditionMaker/releases) section.
 
 Extract the ZIP before running the Maker.
 
