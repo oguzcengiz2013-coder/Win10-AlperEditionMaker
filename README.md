@@ -2,6 +2,8 @@
 
 Win10-AlperEditionMaker is a tool for creating customized Windows 10 installation ISOs from your own Windows 10 installation media.
 
+Optional drivers go in the $OEM$\$$\Setup\Scripts\Drivers folder.
+
 It automates common ISO customization tasks and can optionally apply compatibility tweaks intended for older hardware.
 
 > **Note:** Win10-AlperEditionMaker may have a few more compatibility quirks than Win11-AlperEditionMaker depending on the Windows 10 build and hardware configuration being used.
